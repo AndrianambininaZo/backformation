@@ -250,12 +250,12 @@ public class UserServiceImpl implements ApplicationUserService {
         if (list.size()==0){
             System.out.println("cout="+list.size());
             UserRequest user = new UserRequest();
-            user.setPassword("arosaina12345");
-            user.setNom("Arosaina");
-            user.setEmail("arosaina@gmail.com");
-            user.setPrenom("spider");
+            user.setPassword("123456789");
+            user.setNom("Patrick");
+            user.setEmail("patrick@gmail.com");
+            user.setPrenom("evra");
             user.setTelephone("0340000000");
-            user.setAdresse("Anosipatrana");
+            user.setAdresse("Tanambao");
             saveUserAdmin(user);
 
         }
